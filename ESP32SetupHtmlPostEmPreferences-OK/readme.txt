@@ -12,3 +12,5 @@ Once login is sucessfull fill up the parameters page and save.
 Remove jumper from pin 15 and the ESP32 will automaticaly reboot and show current content of preferences.
 Notice that web setup is only available while the jumper sets pin 15 to ground.
 Any available GPIO pin will work for this purpose and can have a different purpose during app run.
+
+Login.ino must be copied into a folder of the main sketch
