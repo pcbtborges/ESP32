@@ -17,3 +17,6 @@ Notice that web setup is only available while the jumper sets pin 15 to ground.
 Any available GPIO pin will work for this purpose and can have a different purpose during app run.
 
 Login.ino must be copied into a folder of the main sketch
+
+This setup routine can be used in any app of your choice with few modifications to match your needs for different parameters.
+This is part of an ESP32-CAM app that can send pictures via email and to a FTP server and will soon be publicly available.
